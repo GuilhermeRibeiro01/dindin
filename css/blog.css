@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 117px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E948A;
+    padding: 20px 103px 20px 82px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.98px;
+}
+.maisconteudo{
+    width: 100%;
+    height: 542px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 461px 405px;
+    column-gap: 125px;
+}
+.textomaisconteudo{
+    margin-top: 122px;
+    margin-bottom: 162px;
+}
+.textomaisconteudo h1{
+    color: #009688;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    margin-bottom: 40px;
+}
+.textomaisconteudo p{
+    font-size: 20px;
+    line-height: 22.98px;
+    font-weight: 300;
+}
+.imagemmaisconteudo img{
+    margin-top: 48px;
+}
+.ontheother{
+    width: 100%;
+    height: 1712px;
+    background-color: #E5E5E5;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 518px 518px;
+    grid-template-rows: 411px 411px 411px;
+    column-gap: 120px;
+    row-gap: 100px;
+    padding-top: 109px;
+    padding-bottom: 170px;
+}
+.retangulocinza{
+    background-color: #c4c4c4;
+    height: 259px;
+    width: 518px;
+    margin-bottom: 19px;
+}
+.conteudoontheother{
+    width: 518px;
+    height: 411px;
+}
+.conteudoontheother h3{
+    font-size: 30px;
+    line-height: 34.47px;
+    font-weight: 500;
+    color: #ff4081;
+    margin-bottom: 19px;
+}
+.conteudoontheother p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 19.53px;
+}
