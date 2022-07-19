@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+header{
+    width: 100%;
+    height: 117px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E948A;
+    padding: 20px 103px 20px 82px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.98px;
+}
+.titulo-cursos{
+    margin-top: 81px;
+    margin-left: 82px;
+    margin-bottom: 95px;
+}
+.titulo-cursos h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68.94px;
+    color: #ff4081;
+}
+.titulo-cursos span{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+    color: #555555;
+}
+.investimento-iniciantes{
+    height: 448px;
+    display: grid;
+    grid-template-columns: 380px 724px;
+    column-gap: 53px;
+    justify-content: center;
+    
+}
+.conteudo-investimento h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40.22px;
+    color: #ff4081;
+    margin-bottom: 37px;
+}
+.conteudo-investimento p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20.68px;
+    margin-bottom: 53px;
+}
+.conteudo-investimento button {
+    background-color: #419488;    
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    text-decoration: none;
+    border: 0px;
+}
+.conteudo-investimento button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+}
+.poupandoerendendo{
+    margin-top: 107px;
+    margin-bottom: 93px;
+    display: grid;
+    grid-template-columns: 380px 724px;
+    column-gap: 53px;
+    justify-content: center;
+}
+.poupandoerendendo h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40.22px;
+    color: #ff4081;
+    margin-bottom: 37px;
+}
+.poupandoerendendo p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20.68px;
+    margin-bottom: 53px;
+}
+.poupandoerendendo button{
+    background-color: #419488;    
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    border: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+}
+.barracinza1{
+    background-color: #c4c4c4;
+    height: 5px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.independenciafinanceira{
+    margin-top: 93px;
+    display: grid;
+    grid-template-columns: 380px 724px;
+    column-gap: 53px;
+    justify-content: center;
+}
+.independenciafinanceira h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40.22px;
+    color: #ff4081;
+    margin-bottom: 37px;
+}
+.independenciafinanceira p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20.68px;
+    margin-bottom: 53px;
+}
+.independenciafinanceira button{
+    background-color: #419488;    
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    border: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.98px;
+}
