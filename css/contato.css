@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+    display: grid;
+}
+header{
+    width: 100%;
+    height: 117px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E948A;
+    padding: 20px 103px 20px 82px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.98px;
+}
+.contato{
+    padding-top: 82px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 493px 444px;
+    column-gap: 201px;
+}
+.contato h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45.96px;
+    color: #ff4081;
+    margin-bottom: 44px;
+}
+.contato form input{
+    font-family: "Nunito",sans-serif;
+    width: 493px;
+    border: #686868 1px solid;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding-left: 22px;
+}
+.formnome input{
+    line-height: 21px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555d;
+    padding-left: 22px;
+}
+.formemail input{
+    line-height: 21px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555d;
+}
+.formmensagem input{
+    line-height: 21px;
+    height: 193px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555d;
+}
+.contato button{
+    width: 108px;
+    height: 32px;
+    background-color: #ff4081;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+}
