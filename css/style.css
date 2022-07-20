@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+header{
+    width: 100%;
+    height: 117px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2E948A;
+    padding: 20px 103px 20px 82px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    padding: 0px 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+  list-style-type: none;
+}
+.topoindex{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 462px 500px;
+    column-gap: 64px;
+    padding-bottom: 66px;
+    padding-top: 125px;
+}
+.topoindex h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #ff4081;
+    margin-bottom: 19px;
+}
+.topoindex p{
+    font-size: 27px;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 38px;
+}
+.topoindex button{
+    width: 268px;
+    height: 51px;
+    color: #ff4081;
+    border: #ff4081 2px solid;
+    border-radius: 62px;
+    background-color: #ffffffff;
+    font-size: 27px;
+    font-weight: 400;
+}
+.cursosindex{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 344px 293px 304px;
+    column-gap: 121px;
+    padding-top: 109px;
+    padding-bottom: 119px;
+    background-color: #f6f6f6;
+}
+.cursosindex h3{
+    color: #ff4081;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 43px;
+}
+.cursosindex p{
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.cursosindex button{
+    background-color: #ff4081;
+    color: #ffffff;
+    width: 233px;
+    height: 63px;
+    border-radius: 62px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.investimento-index{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.poupando-index{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.independencia-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.oquefalamdenos{
+    padding-top: 119px;
+    padding-bottom: 155px;
+    font-family: "Nunito",sans-serif;
+
+}
+.oquefalamdenos h2{
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+    margin-bottom: 75px;
+    margin-left: 10%;
+}
+.cards-index{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 495px 495px;
+    column-gap: 95px;
+    grid-template-rows: 104px 104px;
+    row-gap: 86px;
+}
+.card-itens{
+    display: flex;
+}
+.card-itens img{
+    width: 104px;
+    margin-right: 28px;
+    
+}
+.card-itens span{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    
+}
+.card-itens p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.maisconteudo-index{
+    padding-top: 91px;
+    padding-bottom: 53px;
+    width: 100%;
+    background-color: #e5e5e5;
+}
+.maisconteudo-index h2{
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+    margin-bottom: 70px;
+    margin-left: 10%;
+}
+.itens-maisconteudo{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 319px 319px 319px;
+    column-gap: 109px;    
+}
+.itens-maisconteudo img{
+    width: 319px;
+    height: 193px;
+    margin-bottom: 11px;
+}
+.itens-maisconteudo h3{
+    font-size: 27px;
+    font-weight: 700;
+    color: #009688;
+}
+.itens-maisconteudo p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+.maisconteudo-index button{
+    width: 290px;
+    height: 51px;
+    color: #ff4081;
+    border: #ff4081 2px solid;
+    background-color: transparent;
+    border-radius: 62px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+.maisconteudo-index button a{
+    text-decoration: none;
+    color: #ff4081;
+    font-size: 25px;
+    font-weight: 400;
+}
+.botao-maisconteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 375px){
+    header{
+        padding: 20px 20px 26px 20px;
+    flex-direction: column;
+    
+    }
+    header img{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    header ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .topoindex{
+        grid-template-columns: 375px;
+        justify-content: center;
+        width: 100%;
+        padding-top: 25px;
+    }
+    .topoindex h1{
+        font-size: 30px;
+        font-weight: 700;
+        color: #ff4081;
+        text-align: center;
+    }
+    .topoindex img{
+        width: 80%;
+        margin-left: 37.5px;
+
+    }
+    .topoindex p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #555555;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .topoindex button{
+        width: 50%;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-left: 93.75px;
+    }
+    .cursosindex{
+        grid-template-columns: 344px;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .cursosindex button{
+        margin-bottom: 35px;
+    }
+    .oquefalamdenos{
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .oquefalamdenos h2{
+        font-size: 37px;
+        font-weight: 700;
+        color: #009688;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .cards-index{
+        grid-template-columns: 360px;
+        grid-template-rows: 104px 104px 104px 104px;
+        row-gap: 75px;
+    }
+    .maisconteudo-index{
+        padding-top: 40px;
+    }
+    .maisconteudo-index h2{
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-left: 10%;
+    }
+    .itens-maisconteudo{
+        grid-template-columns: 360px;
+        justify-content: center; 
+    }
+    .itens-maisconteudo img{
+        width: 80%;
+        height: 193px;
+        margin-bottom: 11px;
+        margin-left: 36px;
+    }
+    .itens-maisconteudo h3{
+        font-size: 21px;
+        font-weight: 700;
+        color: #009688;
+        text-align: center;
+    }
+    .itens-maisconteudo p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .maisconteudo-index button{
+        width: 290px;
+        height: 51px;     
+    }
+    .maisconteudo-index button a{
+        text-decoration: none;
+        color: #ff4081;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+}
