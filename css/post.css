@@ -114,26 +114,19 @@ header ul li{
     font-weight: 400;
     line-height: 22.98px;
     margin-top: 32px;
-    justify-content: center;
 }
-.investimento-post img{
-    margin-bottom: 52.1px;
-    margin-left: 28px;
-}
-.investimento-post button{
-    margin-left: 55.5px;
-}
-.poupando-post img{
-    margin-bottom: 49.64px;
-    margin-left: 27.5px;
-}
-.poupando-post button{
-    margin-left: 30px;
-}
-.independencia-post img{
-    margin-bottom: 49.48px;
-    margin-left: 58.5px;
-}
-.independencia-post button{
-    margin-left: 35.5px;
-}
+.investimento-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .poupando-post{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .independencia-post{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
