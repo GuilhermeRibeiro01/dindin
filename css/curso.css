@@ -134,6 +134,83 @@ header ul li{
     line-height: 22.98px;
 }
 
+@media only screen and (max-width: 1040px) and (min-width: 768px){
+    body{
+        width: 100%;
+    }
+    .investimento-iniciantes{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        grid-template-columns: 720px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .investimento-iniciantes h1{
+        font-size: 35px;
+        line-height: 40px;  
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .investimento-iniciantes p{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .investimento-iniciantes img{
+        width: 80%;
+        margin-left: 37px;
+        margin-top: 20px;
+    }
+    .videos-curso{
+        grid-template-columns: 720px;
+        margin-bottom: 73px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .videos-curso h3{
+        margin-bottom: 26px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .videos-curso p{
+        text-align: center;
+    }
+    .espaço-video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .espaço-video iframe{
+        width: 90%;
+        height: 261px;
+    }
+    .aula2{
+        grid-template-columns: 720px;
+        margin-bottom: 73px;
+    }
+    .aula2 h3{
+        margin-bottom: 26px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .aula2 p{
+        text-align: center;
+    }
+    .aula3{
+        grid-template-columns: 720px;
+        padding-bottom: 73px;
+        margin-bottom: 0px;
+    }
+    .aula3 h3{
+        margin-top: 15px;
+        margin-bottom: 26px;
+        text-align: center;
+    }
+    .aula3 p{
+        text-align: center;
+    }
+
+}
 @media only screen and (max-width: 540px) and (min-width: 375px){
     body{
         width: 100%;

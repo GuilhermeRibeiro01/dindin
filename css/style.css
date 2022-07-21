@@ -201,7 +201,112 @@ header ul li{
     flex-direction: column;
     align-items: center;
 }
+@media only screen and (max-width: 1040px) and (min-width: 768px){
+    body{
+        width: 100%;
+    }
+    .topoindex{
+        grid-template-columns: 724px;
+        justify-content: center;
+        width: 100%;
+        padding-top: 25px;
+    }
+    .topoindex h1{
+        font-size: 45px;
+        font-weight: 700;
+        color: #ff4081;
+        text-align: center;
+    }
+    .topoindex img{
+        width: 80%;
+        height: 400px;
+        margin-left: 72.4px;
 
+    }
+    .topoindex p{
+        font-size: 15px;
+        font-weight: 400;
+        color: #555555;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .topoindex button{
+        width: 50%;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-left: 181px;
+    }
+    .cursosindex{
+        grid-template-columns: 724px;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .cursosindex button{
+        margin-bottom: 35px;
+    }
+    .oquefalamdenos{
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .oquefalamdenos h2{
+        font-size: 37px;
+        font-weight: 700;
+        color: #009688;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .cards-index{
+        grid-template-columns: 724px;
+        grid-template-rows: 104px 104px 104px 104px;
+        row-gap: 75px;
+    }
+    .maisconteudo-index{
+        padding-top: 40px;
+    }
+    .maisconteudo-index h2{
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .itens-maisconteudo{
+        grid-template-columns: 724px;
+        
+    }
+    .itens-maisconteudo img{
+        width: 80%;
+        height: 193px;
+        margin-bottom: 11px;
+        margin-left: 72.4px;
+    }
+    .itens-maisconteudo h3{
+        font-size: 21px;
+        font-weight: 700;
+        color: #009688;
+        text-align: center;
+    }
+    .itens-maisconteudo p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .maisconteudo-index button{
+        width: 290px;
+        height: 51px;     
+    }
+    .maisconteudo-index button a{
+        text-decoration: none;
+        color: #ff4081;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+}
 @media only screen and (max-width: 540px) and (min-width: 375px){
     body{
         width: 100%;
