@@ -202,22 +202,12 @@ header ul li{
     align-items: center;
 }
 
-@media only screen and (max-width: 375px){
-    header{
-        padding: 20px 20px 26px 20px;
-    flex-direction: column;
-    
-    }
-    header img{
-        width: 50%;
-        margin-bottom: 10px;
-    }
-    header ul{
-        flex-wrap: wrap;
-        justify-content: center;
+@media only screen and (max-width: 540px) and (min-width: 375px){
+    body{
+        width: 100%;
     }
     .topoindex{
-        grid-template-columns: 375px;
+        grid-template-columns: 370px;
         justify-content: center;
         width: 100%;
         padding-top: 25px;
@@ -249,7 +239,7 @@ header ul li{
         margin-left: 93.75px;
     }
     .cursosindex{
-        grid-template-columns: 344px;
+        grid-template-columns: 370px;
         justify-content: center;
         padding-bottom: 10px;
         padding-top: 20px;
@@ -270,7 +260,7 @@ header ul li{
         text-align: center;
     }
     .cards-index{
-        grid-template-columns: 360px;
+        grid-template-columns: 370px;
         grid-template-rows: 104px 104px 104px 104px;
         row-gap: 75px;
     }
@@ -283,8 +273,8 @@ header ul li{
         margin-left: 10%;
     }
     .itens-maisconteudo{
-        grid-template-columns: 360px;
-        justify-content: center; 
+        grid-template-columns: 370px;
+        
     }
     .itens-maisconteudo img{
         width: 80%;
