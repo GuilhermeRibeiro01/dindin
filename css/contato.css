@@ -79,6 +79,43 @@ header ul li{
     font-family: "Nunito", sans-serif;
     font-weight: 800;
 }
+@media only screen and (max-width: 1040px) and (min-width: 768px){
+    body{
+        width: 100%;
+    }
+    .contato{
+        padding-top: 30px;
+        grid-template-columns: 724px;
+    }
+    .contato h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: #ff4081;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .contato form input{
+        width: 724px;
+        border: #686868 1px solid;
+        margin-bottom: 15px;
+        padding-left: 22px;
+    }
+    .contato button{
+        width: 50%;
+        height: 15%;
+        font-size: 16px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 800;
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+    .contato img{
+        width: 50%;
+        height: 250px;
+        margin-left: 181px;
+        margin-top: 20px;
+    }
+}
 @media only screen and (max-width: 540px) and (min-width: 375px){
     body{
         width: 100%;
