@@ -42,7 +42,8 @@ header ul li{
     color: #555555;
 }
 .investimento-iniciantes{
-    height: 448px;
+    padding-top: 95px;
+    padding-bottom: 68px;
     display: grid;
     grid-template-columns: 380px 724px;
     column-gap: 53px;
@@ -146,4 +147,100 @@ header ul li{
     font-size: 20px;
     font-weight: 400;
     line-height: 22.98px;
+}
+@media only screen and (max-width: 540px) and (min-width: 375px){
+    body{
+        width: 100%;
+    }
+    .titulo-cursos{
+        display: grid;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .titulo-cursos h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        color: #ff4081;
+    }
+    .titulo-cursos span{
+        width: 317px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #555555;
+    }
+    .investimento-iniciantes{
+        grid-template-columns: 370px;
+        padding-top: 0px;
+    padding-bottom: 20px;
+    }
+    .investimento-iniciantes img{
+        width: 80%;
+        margin-left: 37px;
+    }
+    .conteudo-investimento h2{
+        font-size: 27px;
+        margin-bottom: 30px;
+        text-align: center;
+
+    }
+    .conteudo-investimento p{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20.68px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .conteudo-investimento button {
+        margin-left: 68.5px;
+    }
+    .poupandoerendendo{
+        margin-top: 70px;
+    margin-bottom: 40px;
+        grid-template-columns: 370px;
+    }
+    .poupandoerendendo img{
+        width: 80%;
+        margin-left: 37px;
+    }
+    .poupandoerendendo h2{
+        font-size: 27px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .poupandoerendendo p{
+        font-size: 18px;
+        margin-bottom: 53px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .poupandoerendendo button{
+        margin-left: 68.5px;
+    }
+    .independenciafinanceira{
+        margin-top: 50px;
+        grid-template-columns: 370px;
+        
+    }
+    .independenciafinanceira img{
+        width: 80%;
+        margin-left: 37px;
+    }
+    .independenciafinanceira h2{
+        font-size: 27px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .independenciafinanceira p{
+        font-size: 18px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .independenciafinanceira button{
+        margin-bottom: 50px;
+        margin-left: 68.5px;
+    }
+
 }

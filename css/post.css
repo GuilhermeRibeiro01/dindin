@@ -24,8 +24,8 @@ header ul li{
     font-size: 20px;
     line-height: 22.98px;
 }
+
 .textopost{
-    height: 1965px;
     display: grid;
     justify-content: center;
     padding-top: 111px;
@@ -46,16 +46,19 @@ header ul li{
     color: #9d9d9d;
     text-align: center;
 }
-.retangulocinzapost{
+.retangulocinzapost img{
     width: 1032px;
     height: 465px;
     margin-top: 74px;
     margin-bottom: 64px;
-    background-color: #c4c4c4;
 }
 .textodentrodopost{
-    width: 1032px;
-    height: 1061px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1032px;
+    margin-bottom: 200px;
+    
 }
 .textodentrodopost p{
     font-size: 18px;
@@ -72,7 +75,6 @@ header ul li{
 .conteudopost-pt2{
     background-color: #f6f6f6;
     width: 100%;
-    height: 899px;
     padding-top: 79px;
 }
 .conteudopost-pt2 h2{
@@ -129,4 +131,92 @@ header ul li{
      display: flex;
      flex-direction: column;
      align-items: center;
+ }
+
+ @media only screen and (max-width: 540px) and (min-width: 375px){
+    body{
+        width: 100%;
+    }
+    .textopost{
+        padding-top: 50px;
+        grid-template-columns: 370px;
+    }
+    .textopost h1{
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 12px;
+    }
+    .textopost p{
+        color: #9d9d9d;
+        text-align: center;
+    }
+    .retangulocinzapost{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .retangulocinzapost img{
+        width: 80%;
+        height: 350px;
+        margin-top: 74px;
+        margin-bottom: 64px;
+    }
+    .textodentrodopost{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 370px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .textodentrodopost p{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20.68px;
+        text-align: center;
+    }
+    .textodentrodopost h3{
+        color: #419488;
+        line-height: 29.87px;
+        font-size: 27px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .conteudopost-pt2{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 370px;
+        padding-top: 40px;
+    }
+    .conteudopost-pt2 h2{  
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .conheçacursospost{
+        grid-template-columns: 370px;
+        column-gap: 0px;
+
+    }
+    .conheçacursospost h3{
+        font-size: 22px;
+        line-height: 28.73px;
+        margin-bottom: 28px;
+    }
+    .conheçacursospost p{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 19.53px;
+        text-align: center;
+    }
+    .conheçacursospost button{
+        width: 233px;
+        height: 43px;
+        font-size: 20px;
+        line-height: 22.98px;
+        margin-top: 32px;
+        margin-bottom: 30px;
+    }
  }
